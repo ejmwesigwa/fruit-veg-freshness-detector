@@ -48,10 +48,6 @@ Timely identification of spoiled produce is critical in supply chains to reduce 
 
 ## 📌 How to Run
 
-## Setup
-
-Follow these steps to get the project running:
-
 1. **Clone this repo:**
 
    ```bash
@@ -67,7 +63,7 @@ Follow these steps to get the project running:
 3. **Open Jupyter Notebooks in the notebooks/ folder and run step-by-step.**
 
 
-
+---
 ## ✍️ Author
 
 Enock Joseph Mwesigwa
