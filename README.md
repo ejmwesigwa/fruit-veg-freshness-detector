@@ -48,17 +48,29 @@ Timely identification of spoiled produce is critical in supply chains to reduce 
 
 ## 📌 How to Run
 
-1. Clone this repo:<br><br>
-```bash
-git clone [https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git](https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git)<br>
+## Setup
 
-cd fruit-veg-disease-detector
-```<br><br>
-2. Install dependencies<br><br>
-```bash
-pip install -r requirements.txt
-```<br><br>
-3. Open Jupyter Notebooks in the notebooks/ folder and run step-by-step.<br><br>
-✍️ Author
+Follow these steps to get the project running:
+
+1. **Clone this repo:**
+
+   ```bash
+   git clone https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git
+   cd fruit-veg-disease-detector
+
+2. **Install dependencies:**
+   
+    ```Bash
+    pip install -r requirements.txt
+
+
+3. **Open Jupyter Notebooks in the notebooks/ folder and run step-by-step.**
+
+
+
+## ✍️ Author
+
 Enock Joseph Mwesigwa
+
+
 🔗 [LinkedIn](https://www.linkedin.com/in/enock-joseph-mwesigwa/)
