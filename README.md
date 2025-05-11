@@ -72,13 +72,14 @@ fruit-veg-disease-detector/
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git
+git clone [https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git](https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git)
 cd fruit-veg-disease-detector
+
 
 
 2. Install dependencies
 
-```bash
+Bash
 pip install -r requirements.txt
 
 
