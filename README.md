@@ -18,27 +18,6 @@ Timely identification of spoiled produce is critical in supply chains to reduce 
 
 ---
 
-## ⚙️ Project Structure
-fruit-veg-disease-detector/
-│
-├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_cnn_baseline.ipynb
-│ └── 03_resnet_transfer_learning.ipynb
-│
-├── models/
-│ └── best_resnet_model.pth
-│
-├── utils/
-│ └── metrics.py
-│
-├── data/
-├── requirements.txt
-└── README.md
-
-
----
-
 ## ✅ Results
 
 | Model        | Accuracy | Precision | Recall | F1-score |
@@ -69,23 +48,17 @@ fruit-veg-disease-detector/
 
 ## 📌 How to Run
 
-1. Clone this repo:
+1. Clone this repo:<br><br>
+```bash
+git clone [https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git](https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git)<br>
 
-Bash
-
-git clone [https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git](https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git)
 cd fruit-veg-disease-detector
-
-
-
-2. Install dependencies
-
-Bash
+```<br><br>
+2. Install dependencies<br><br>
+```bash
 pip install -r requirements.txt
-
-
-3. Open Jupyter Notebooks in the notebooks/ folder and run step-by-step.
-
+```<br><br>
+3. Open Jupyter Notebooks in the notebooks/ folder and run step-by-step.<br><br>
 ✍️ Author
 Enock Joseph Mwesigwa
 🔗 [LinkedIn](https://www.linkedin.com/in/enock-joseph-mwesigwa/)
