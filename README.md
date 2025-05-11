@@ -71,7 +71,8 @@ fruit-veg-disease-detector/
 
 1. Clone this repo:
 
-```bash
+Bash
+
 git clone [https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git](https://github.com/ejmwesigwa/fruit-veg-freshness-detector.git)
 cd fruit-veg-disease-detector
 
