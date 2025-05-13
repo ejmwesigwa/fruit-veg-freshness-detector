@@ -4,5 +4,5 @@ torch
 torchvision
 Pillow
 numpy
-pytorch_grad_cam
+grad_cam
 
