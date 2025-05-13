@@ -5,9 +5,9 @@ from torchvision import transforms, models
 from PIL import Image
 import numpy as np
 import os
-from grad_cam import GradCAM
-from grad_cam.utils.model_targets import ClassifierOutputTarget
-from grad_cam.utils.image import show_cam_on_image
+from pytorch_grad_cam import GradCAM
+from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
+from pytorch_grad_cam.utils.image import show_cam_on_image
 
 # --- CONFIG ---
 MODEL_PATH = 'models/best_resnet_model.pth'
