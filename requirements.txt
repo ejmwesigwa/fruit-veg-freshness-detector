@@ -1,8 +1,7 @@
 streamlit
-torch
-torch
-torchvision
-Pillow
-numpy
-grad_cam
-
+torch==2.7.0
+torchvision==0.22.0
+Pillow==10.4.0
+numpy==1.26.4
+grad_cam==1.5.5
+opencv-python==4.11.0.86
