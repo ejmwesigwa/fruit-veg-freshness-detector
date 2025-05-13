@@ -2,8 +2,7 @@ streamlit
 torch
 torch
 torchvision
-PIL
+Pillow
 numpy
-os
 pytorch_grad_cam
 
