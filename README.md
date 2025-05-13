@@ -33,16 +33,12 @@ Timely identification of spoiled produce is critical in supply chains to reduce 
 
 - **ResNet-18** significantly outperforms the custom CNN on both accuracy and generalization.
 - Some classes like `Jujube__Rotten` and `Potato__Healthy` were harder to classify — likely due to class imbalance and visual ambiguity.
+- Fine-grained challenge – many mis-labels occur where even humans struggle to tell “fresh” from “slightly spoiled”.
+
+- Grad-CAM shows the model focuses on bruises, mold spots, or color changes – confirming it learns meaningful features.
+
+- Some rare classes (< 100 images) still confuse the model; more data or class balancing would help
 - The model can be further improved with augmentation, dataset balancing, and domain-specific preprocessing.
-
----
-
-## 🚀 Future Work
-
-- ✅ Build a simple **Streamlit app** for real-time predictions
-- 🔄 Improve data augmentation
-- 🧠 Add model interpretability (Grad-CAM)
-- 💻 Export to ONNX or deploy via Colab
 
 ---
 
